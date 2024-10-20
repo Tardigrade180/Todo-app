@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
+//To fetch from an api
 
 const AddTodo = () => {
     const navigate = useNavigate();
