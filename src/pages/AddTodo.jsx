@@ -14,8 +14,8 @@ const AddTodo = () => {
         //Post data to todo api
         await axios.post(`${import.meta.env.VITE_BASE_URL}/todos`,formData);
         
-        //Goto the homepage
-        navigate('/');
+        //Navigates you back to the homepage itself commented it out
+        // navigate('/');
     }
 
     return (
